@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Martel Sans", sans-serif;
+}
+
+body {
+    position: relative;
+    background-color: black;
+}
+
+nav svg {
+    width: 100px;
+    color: rgb(229, 9, 20);
+    fill: currentColor;
+}
+
+nav button {
+    padding: 4px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(229, 9, 20);
+    border-radius: 5px;
+    border: none;
+}
+
+nav {
+    display: flex;
+    width: 80vw;
+    height: 100px;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+.main {
+    height: 90vh;
+    width: 100vw;
+    background-image: url(bg.jpg);
+    position: relative;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    margin: auto;
+    top: 0;
+}
+
+.black-box {
+    position: absolute;
+    top: 0;
+    background-color: black;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+
+}
+
+/* .red-box{ */
+/* width: 70vw; */
+/* height: 70vh; */
+/* background-color: red; */
+/* opacity: 0.7; */
+/* position: relative; */
+/* margin: auto; */
+/* border-radius: 100%; */
+/* filter: blur(150px); */
+/* z-index: 0; */
+/* } */
+
+.hero-div {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 40vw;
+    text-align: center;
+    gap: 5px;
+}
+
+.hero-items {
+    color: white;
+    position: relative;
+    z-index: 10;
+    /* padding: 0px 100px; */
+}
+
+.hero-div> :nth-child(1) {
+    font-size: 56px;
+    font-weight: 900;
+}
+
+.hero-div> :nth-child(2) {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.hero-div> :nth-child(3) {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.hero-div div {
+    position: relative;
+    z-index: 10;
+}
+
+.input-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    width: 100%;
+}
+
+.inp {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 7px 20px;
+    width: 50%;
+    background-color: #171817;
+    border: 1px solid rgba(230, 230, 230, 0.2);
+    border-radius: 2px;
+    color: white;
+}
+
+.but {
+    font-size: 24px;
+    font-weight: 700;
+    /* padding: 2px 20px; */
+    width: 30%;
+    border-radius: 4px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+.center {
+    width: 85vw;
+    margin: auto;
+}
+
+.top-section p {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: white;
+    margin: 2vh 0;
+}
+
+.flex-for-select {
+    display: flex;
+    gap: 20px;
+}
+
+#country {
+    background-color: #0f0f0f;
+    color: white;
+    /* appearance: none; */
+    padding: 9px 16px;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#type {
+    background-color: #0f0f0f;
+    color: white;
+    /* appearance: none; */
+    padding: 9px 12px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.images img {
+    border-radius: 8px;
+}
+
+.second-section {
+    position: relative;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding: 22px;
+    margin: 2vh 0 7vh 1vh;
+    flex-wrap: wrap;
+}
+
+.images {
+    position: relative;
+}
+
+.images span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 150px;
+    font-weight: bolder;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2px;
+    /* border: 2px solid white; */
+    position: absolute;
+    bottom: 0;
+    left: -40px;
+}
+
+.next-button button {
+    padding: 50px 7px;
+    border-radius: 15px;
+    font-size: 2rem;
+    background-color: rgba(26, 26, 26, 1);
+    color: rgb(128, 128, 128);
+}
+
+.third-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 1vh auto 8vh auto;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.top-of-third-section {
+    color: white;
+}
+
+.gradient-box {
+    padding: 10px;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    background: rgb(26, 33, 68);
+    background: linear-gradient(39deg, rgba(26, 33, 68, 1) 0%, rgba(33, 14, 24, 1) 35%);
+
+}
+
+
+
+.gradient-box p {
+    color: white;
+}
+
+.gradient-box h2 {
+    color: white;
+
+}
+
+.gradient-box svg {
+    align-self: flex-end;
+    margin-top: 10%;
+}
+
+.gradient-box3 svg {
+    margin-top: 20%;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.faq h2 {
+    color: white;
+    font-size: 1.8rem;
+}
+
+.faq-box {
+    background-color: rgba(45, 45, 45, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 100;
+    color: white;
+    padding: 10px;
+
+}
+
+.faq-box p {
+    font-weight: 500;
+}
+
+.email-bottom {
+    margin: 12vh 0;
+    text-align: center;
+
+}
+
+.input-button1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.inp1 {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 20px;
+    width: 35%;
+    background-color: #171817;
+    border: 1px solid rgba(230, 230, 230, 0.2);
+    border-radius: 2px;
+    color: white;
+}
+
+.but1 {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 5px 20px;
+    width: 15%;
+    border-radius: 4px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+.email-p {
+    color: white;
+    margin: 10px;
+}
+
+footer {
+    width: 85vw;
+    height: 42vh;
+    margin: auto;
+    color: rgba(179, 179, 179, 1);
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw 15vw;
+}
+
+.footer-grid-item {
+    margin-top: 10px;
+}
+
+.heading-footer {
+    margin-bottom: 30px;
+}
+
+#langi {
+    background-color: #0f0f0f;
+    color: white;
+    /* appearance: none; */
+    padding: 6px 16px;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 3vh 0;
+}
+
+a:visited {
+    color: rgba(179, 179, 179, 1);
+}
+
+@media only screen and (min-width:1920px) and (max-width : 2560px) {
+    .second-section {
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width:1366px) and (max-width : 1750px) {
+    .second-section {
+        justify-content: center;
+    }
+
+    .hero-div> :nth-child(1) {
+        font-size: 48px;
+    }
+
+    .hero-div> :nth-child(2) {
+        font-size: 15px;
+    }
+
+    .hero-div> :nth-child(3) {
+        font-size: 13px;
+    }
+
+    .input-button {
+        flex-wrap: wrap;
+    }
+
+    .gradient-box {
+        /* font-size: 0.8rem; */
+    }
+
+    .third-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .but1 {
+        font-size: 19px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width:860px) and (max-width : 1365px) {
+
+    .second-section {
+        justify-content: center;
+    }
+
+    .hero-div> :nth-child(1) {
+        font-size: 35px;
+    }
+
+    .hero-div> :nth-child(2) {
+        font-size: 14px;
+    }
+
+    .hero-div> :nth-child(3) {
+        font-size: 13px;
+    }
+
+    .inp {
+        font-size: 12px;
+    }
+
+    .but {
+        font-size: 15px;
+    }
+
+    .input-button {
+        flex-wrap: wrap;
+    }
+
+    .third-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .input-button1 {
+        flex-direction: column;
+    }
+
+    .but1 {
+        font-size: 14px;
+        width: 20%;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+
+}
+
+@media only screen and (min-width:400px) and (max-width : 859px) {
+    .second-section {
+        justify-content: center;
+    }
+
+    .hero-div> :nth-child(1) {
+        font-size: 35px;
+    }
+
+    .hero-div> :nth-child(2) {
+        font-size: 14px;
+    }
+
+    .hero-div> :nth-child(3) {
+        font-size: 13px;
+    }
+
+    .inp {
+        font-size: 12px;
+    }
+
+    .but {
+        font-size: 15px;
+        width: 50%;
+    }
+
+    .input-button {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .third-section {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .input-button1 {
+        flex-direction: column;
+    }
+
+    .but1 {
+        font-size: 10px;
+        width: 20%;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
